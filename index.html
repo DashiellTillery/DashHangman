@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman</title>
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" href = "style.css">
+
+</head>
+<h1>Hangman</h1>
+
+<body onload = "buttonStuff()">
+Difficulty:
+<select title="Difficulty" id="difficulty">
+    <option value = "1">easy </option>
+    <option value = "2">medium </option>
+    <option value = "3">hard  </option>
+</select>
+Category:
+<select title="category" id="category">
+    <option value = "1">Countries</option>
+    <option value = "2">Energy drinks</option>
+    <option value = "3">Birds</option>
+</select>
+<button id = "start" onclick="startGame()">Start!</button>
+<div></div>
+<img id = "image"/>
+<div id = "win"></div>
+<div id = "word"></div>
+<div id = "guesses"></div>
+<div id = "buttonBucket"></div>
+<div id="buttonThrow"></div>
+
+</body>
+</html>
